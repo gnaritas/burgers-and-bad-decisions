@@ -200,6 +200,8 @@ footer.site{border-top:3px solid var(--mustard);background:var(--ink3);margin-to
 }
 @media (max-width:720px){
   .navbtn{display:block}
+  .footgrid{grid-template-columns:1fr}
+  .footline{letter-spacing:.02em}
   nav.links{display:none;width:100%;flex-direction:column;align-items:stretch;gap:0;margin:0}
   nav.links a{padding:.8rem .2rem;border-bottom:1px dashed #3a332c;font-size:.95rem}
   nav.links a.btn{margin-top:.6rem;text-align:center}
@@ -208,6 +210,9 @@ footer.site{border-top:3px solid var(--mustard);background:var(--ink3);margin-to
   .stamp{position:static;display:inline-block;transform:rotate(-4deg);margin-top:1.2rem}
   ul.menurows li{flex-wrap:wrap}
   ul.menurows li i{display:none}
+  ul.trows li{flex-wrap:wrap}
+  ul.trows li i{display:none}
+  ul.trows li b{white-space:normal}
   .mdesc{width:100%}
   .mname{white-space:normal}
 }
