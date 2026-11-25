@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://burgers-and-bad-decisions-demo.up.railway.app/sitemap.xml
